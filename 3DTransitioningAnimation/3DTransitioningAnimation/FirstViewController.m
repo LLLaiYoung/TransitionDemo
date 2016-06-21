@@ -31,7 +31,9 @@ SecondViewControllerDelegate
     self.navigationController.delegate = self;
     
 }
-
+/**
+ *   push.如果有UINavigationController的话,则在navigationBar的地方会很丑,然而使用Present可以解决这个问题
+ */
 - (IBAction)pushOrPresentBtn:(UIButton *)sender {
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     SecondViewController *secondVC = [storyboard instantiateViewControllerWithIdentifier:@"second"];

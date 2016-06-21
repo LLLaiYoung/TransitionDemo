@@ -62,7 +62,7 @@
 ```
 #####Pop做Push的相反操作即可
 ...
-#### 3. ViewController如何实现自定义转场动画
+#### 3. ViewController如何使用自定义转场动画
 * pushViewController
 	在push的控制器设置`navigationController`的`delegate`为`self`
 	
