@@ -1,6 +1,6 @@
 # TransitionDemo
 ####Timi记账时光轴界面到添加账单(修改账单)界面的转场动画(对应class`LYPushTransition`,`LYPopTransition`)
-使用的是自定义的转场动画,具体如何使用请看[喵神](https://onevcat.com/2013/10/vc-transition-in-ios7/) 和 [KittenYang](http://kittenyang.com/uiviewcontrollertransitioning/) 的blog
+使用的是自定义的转场动画,具体如何使用请看[喵神](https://onevcat.com/2013/10/vc-transition-in-ios7/) 和 [KittenYang](http://kittenyang.com/uiviewcontrollertransitioning/) 的blog,推荐[几句代码快速集成自定义转场效果+全手势驱动](https://github.com/wazrx/XWTransition)
 1.首先定一个`class`,继承至`NSObject`,遵守`UIViewControllerAnimatedTransitioning`协议。
 2.需要实现两个方法
 
