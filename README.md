@@ -119,6 +119,7 @@ navi.transitioningDelegate = self;
 ```
 
 	`dismiss`控制器则需要写一个代理,告诉`present`的那个控制器`dismiss`即可
-
+	
+Note：如果`presentViewController`、`dismissViewControllerAnimated`或者`pushViewController`、`popViewControllerAnimated` 的`animated`设置为`NO`的话，就可能导致不会执行你的动画代理函数，也就意味着不会有转场动画
 
 
